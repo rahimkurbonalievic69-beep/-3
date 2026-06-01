@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Мультфильмы</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #ff6f61;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    vertical-align: top;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card h3 {
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .card p {
+    margin: 0 10px 10px 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Мультфильмы</h1>
+  <nav>
+    <a href="#">Главная</a>
+    <a href="#">Обзор</a>
+    <a href="#">Популярные</a>
+    <a href="#">Контакты</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Лучшие мультфильмы</h2>
+  <div class="card">
+    <img src="a2a548d8-bdc3-48a1-926b-bf5402cc2241 (1).png maxresdefault (10).jpg" alt="Мультфильм 1" />
+    <h3>ШЕРЛОК ГНОМС 2018 8 ЛЕТ</h3>
+    <p>МИ МИ МИШКИ 2015 11 ЛЕТ</p>
+  </div>
+  <div class="card">
+    <img src="42139af5-321a-40c7-ba10-042ac08b184c (1).jpeg SonicPrimeSeason2artClean (1).webp" alt="Мультфильм 2" />
+  <h3>КОТ БАСИК 2022 4 ГОДА</h3>
+    <p> СОНИК ПРАЙМ 2022 4 ГОДА</p>
+  </div>
+  <div class="card">
+    <img src="AAACZ6iQXTBVXSU5aKH6Vp2ENqUAw0R_hRURUfwCtbec-5RnYeyMq6HR8QCZ_GsQZ91CeawRGBoT0n86Oh6M93oYL8s.ing pHORIZONTAL_07299e70dff34cedfcd20b06a7c66179 (1).webp " alt="Мультфильм 3" />
+<h3>ИНСПЕКТОР ГАДЖЕТ 2015 11 ЛЕТ</h3>
+    <p>СКАЗОЧНЫЙ ПАТРУЛЬ 2016 10 ЛЕТ</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025-2026 Мультфильмы. Все права защищены. Дата 30 08 2025 Вк
+</footer>
+
+</body>
+</html>
